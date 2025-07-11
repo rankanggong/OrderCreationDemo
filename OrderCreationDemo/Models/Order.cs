@@ -12,7 +12,7 @@ namespace OrderCreationDemo.Models
     {
         public Guid OrderId { get; set; }
         public string CustomerName { get; set; }
-        public IEnumerable<ProductDTO> Items { get; set; }
+        public IEnumerable<Product> Items { get; set; }
         public DateTime CreatedAt { get; set; }
     }
 }
